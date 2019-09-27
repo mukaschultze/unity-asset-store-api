@@ -1,0 +1,38 @@
+{
+  "name": "unity-asset-store-api",
+  "version": "0.0.1",
+  "description": "API Client for Unity's Asset Store",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint \"src/**/*.ts\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mukaschultze/unity-asset-store-api.git"
+  },
+  "keywords": [
+    "Unity",
+    "Asset",
+    "Store",
+    "API",
+    "Client"
+  ],
+  "author": "Muka Schultze",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mukaschultze/unity-asset-store-api/issues"
+  },
+  "homepage": "https://github.com/mukaschultze/unity-asset-store-api#readme",
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/request-promise-native": "^1.0.17",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.3"
+  }
+}
