@@ -9,11 +9,12 @@ jobs:
     - stage: Linting
       script: npm run lint
     - stage: Deploy
+      if: tag IS present
       script: skip
-      on:
-        tags: true
       deploy:
         provider: npm
         email: $NPM_EMAIL_ADDRESS
         api_key: $NPM_AUTH_TOKEN
         skip_cleanup: true
+        on:
+          tags: true
