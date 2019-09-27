@@ -1,19 +1,19 @@
 language: node_js
 
+node_js:
+  - 10
+  - 12
+
 jobs:
   include:
-    - stage: Build
-      node_js:
-        - 10
-        - 12
-      script: npm run build
     - stage: Linting
       script: npm run lint
     - stage: Deploy
+      script: skip
+      on:
+        tags: true
       deploy:
         provider: npm
         email: $NPM_EMAIL_ADDRESS
         api_key: $NPM_AUTH_TOKEN
         skip_cleanup: true
-        on:
-          tags: true

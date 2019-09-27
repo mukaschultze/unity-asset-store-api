@@ -7,7 +7,7 @@
   "scripts": {
     "build": "tsc",
     "lint": "tslint \"src/**/*.ts\"",
-    "test": "",
+    "test": "tsc",
     "preversion": "npm run test && npm run lint",
     "version": "npm run build",
     "postversion": "git push && git push --tags"
