@@ -1,6 +1,6 @@
 {
   "name": "unity-asset-store-api",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "API Client for Unity's Asset Store",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
