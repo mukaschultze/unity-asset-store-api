@@ -1,8 +1,10 @@
 # Unity Asset Store API Client
 
-## How to use
+[![Build Status](https://travis-ci.com/mukaschultze/unity-asset-store-api.svg?branch=master)](https://travis-ci.com/mukaschultze/unity-asset-store-api)
+[![npm version](https://badge.fury.io/js/unity-asset-store-api.svg)](http://badge.fury.io/js/unity-asset-store-api)
+[![npm downloads](https://img.shields.io/npm/dm/unity-asset-store-api.svg)](http://badge.fury.io/js/unity-asset-store-api)
 
-## Example
+## How to use
 
 ## How to get your token
 
