@@ -12,8 +12,8 @@ jobs:
 
 deploy:
   provider: npm
-  email: "YOUR_EMAIL_ADDRESS"
-  api_key: "YOUR_AUTH_TOKEN"
+  email: "NPM_EMAIL_ADDRESS"
+  api_key: "NPM_AUTH_TOKEN"
   skip_cleanup: true
   on:
     tags: true
