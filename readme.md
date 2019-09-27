@@ -22,7 +22,7 @@ const publisherID = 15803;
 const client = new AssetStoreClient(token, publisherID, { timeout: 60000 });
 
 // Optionally you can leave the publisher ID undefined
-// and pass them as the last argument of each function
+// and pass it as the last argument of each function
 
 await client.apiKey();
 await client.downloads(2019, 09);
@@ -38,8 +38,8 @@ await client.logout(); // This invalidates the token
 
 ## How to get your token
 
-Head over to the asset store publisher panel, open the cookies and find a cookie named `kharma_session`, its value is your token.  
-_Do not make your token publicly available. Logging out invalidates the token, just in case you need it._
+Head over to the [asset store publisher panel](https://publisher.assetstore.unity3d.com), open the site cookies and find a cookie named `kharma_session`, its value is your token.  
+_Do not make your token publicly available. Logging out invalidates the token._
 
 ## License
 
